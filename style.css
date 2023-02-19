@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/bg-desktop.svg) no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: 90%;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100vh;
+    overflow:hidden;
+
+}
+
+h1,
+h2 {
+    font-family: "Poppins";
+    color: white;
+}
+
+p{
+    font-family:'Open Sans';
+}
+
+.title {
+    width: 900px;
+    font-size: 2.5vw;
+    color: white;
+    margin-top:50px;
+}
+
+.description{
+    width: 720px;
+    margin-top:30px;
+    font-size:1.3vw;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.text {
+    color: white;
+    display: inline-block;
+    width: 500px;
+    margin-left: 80px;
+}
+
+.register {
+    display: block;
+    width:50%;
+    margin-left:850px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+
+footer {
+  display:inline;  
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.reg-btn {
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:hsl(257, 40%, 49%);
+	font-family:Arial;
+	font-size:21px;
+	padding:16px 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.reg-btn:hover {
+	background-color:#fcfcfc;
+}
+.reg-btn:active {
+	position:relative;
+	top:1px;
+}
+
+svg{
+    height:50px;
+}
+
+
+.logo {
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+img {
+    float: left;
+    height:550px;
+}
+
+.container {
+    margin-left: 50px;
+}
+
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.social-links {
+    float: right;
+    margin-right: 50px;
+    margin-top: -5px;
+}
+
+.social-links > i {
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.attribution{
+    font-size: 0.89em;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    margin-left:10px;
+    color: wheat;
+    font-weight: bold;
+    word-spacing: 2px;
+    cursor: pointer;
+}
